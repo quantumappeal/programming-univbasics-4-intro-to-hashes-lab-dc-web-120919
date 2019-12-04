@@ -38,9 +38,10 @@ end
 
 describe "reading data from a hash" do
   describe "read_from_hash" do
-    'name' = :name
+    'name' = :friend
     read_from_hash = {
-      :name = "Steve"
+      :name = 'Steve'
+      :friend = 'Tzvi'
     }
     it "returns the value corresponding to the provided key" do
       expect(read_from_hash({name: 'Steve'}, :name)).to eq('Steve')
