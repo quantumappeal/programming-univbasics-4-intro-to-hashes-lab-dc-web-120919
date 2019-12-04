@@ -9,7 +9,6 @@ describe "working with hashes" do
       end
     end
 
-
     describe "my_hash" do
       my_hash = {zip}
     end
