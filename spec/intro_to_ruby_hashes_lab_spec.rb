@@ -5,20 +5,17 @@ describe "working with hashes" do
 
   describe "instantiating" do
     describe "new_hash" do
-      new_hash 
+      new_hash = {}
       end
     end
 
 
     describe "my_hash" do
-      it "creates and returns a valid hash that contains key/value pairs of your choice" do
-        expect(my_hash).to be_a(Hash)
-        expect(my_hash.keys.count).to_not eq(0)
-      end
+      my_hash = {zip}
     end
 
     describe "pioneer" do
-      it "creates and returns a hash named pioneer whose key is a symbol :name and whose value is a string, 'Grace Hopper'" do
+      pioneer =
         expect(pioneer).to be_a(Hash)
         expect(pioneer[:name]).to eq("Grace Hopper")
       end
