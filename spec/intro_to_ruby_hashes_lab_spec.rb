@@ -39,6 +39,7 @@ end
 describe "reading data from a hash" do
   describe "read_from_hash" do
     read_from_hash = {
+      key = :name
       :name = "Steve"
     }
     it "returns the value corresponding to the provided key" do
