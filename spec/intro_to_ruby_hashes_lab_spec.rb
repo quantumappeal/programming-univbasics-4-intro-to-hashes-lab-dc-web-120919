@@ -22,7 +22,7 @@ describe "working with hashes" do
 
     describe "id_generator" do
       id_generator = {
-        :id 
+        :id = "7"
       }
       end
     end
