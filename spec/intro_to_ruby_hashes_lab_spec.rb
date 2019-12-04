@@ -15,7 +15,7 @@ describe "working with hashes" do
     end
 
     describe "pioneer" do
-      pioneer =
+      pioneer = {
         expect(pioneer).to be_a(Hash)
         expect(pioneer[:name]).to eq("Grace Hopper")
       end
