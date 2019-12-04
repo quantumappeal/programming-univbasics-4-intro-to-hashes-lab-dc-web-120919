@@ -16,8 +16,8 @@ describe "working with hashes" do
 
     describe "pioneer" do
       pioneer = {
-        :name = Grace Hopper
-        expect(pioneer[:name]).to eq("Grace Hopper")
+        :name = "Grace Hopper"
+      }
       end
     end
 
